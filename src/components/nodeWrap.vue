@@ -379,51 +379,60 @@ const resetConditionNodesTitle = (conditionNode, len) => {
 
 const setNodeInfo = (index) => {
     var { nodeType } = props.nodeConfig;
-    if (nodeType == 1) {
-        setPromoter(true);
-        setFlowPermission({
-            value: props.flowPermission,
-            flag: false,
-            id: _uid,
-        });
-    } else if (nodeType == 4) {
-        setApprover(true);
-        setApproverConfig({
-            value: {
-                ...JSON.parse(JSON.stringify(props.nodeConfig)),
-                ...{ setType: props.nodeConfig.setType ? props.nodeConfig.setType : 1 },
-            },
-            flag: false,
-            id: _uid,
-        });
-    } else if (nodeType == 6) {
-        setCopyer(true);
-        setCopyerConfig({
-            value: JSON.parse(JSON.stringify(props.nodeConfig)),
-            flag: false,
-            id: _uid,
-        });
-    }
-    else if (nodeType == 7) {
-        setApprover(true);
-        setApproverConfig({
-            value: {
-                ...JSON.parse(JSON.stringify(props.nodeConfig)),
-                index: index,
-            },
-            flag: false,
-            id: _uid,
-        });
-    }
-    else {
-        setCondition(true);
-        setConditionsConfig({
-            value: JSON.parse(JSON.stringify(props.nodeConfig)),
-            index,
-            flag: false,
-            id: _uid,
-        });
-    }
+    const actions = {
+        1: () => {
+            setPromoter(true);
+            setFlowPermission({
+                value: props.flowPermission,
+                flag: false,
+                id: _uid,
+            });
+        },
+        4: () => {
+            setApprover(true);
+            setApproverConfig({
+                value: {
+                    ...JSON.parse(JSON.stringify(props.nodeConfig)),
+                    ...{ setType: props.nodeConfig.setType ? props.nodeConfig.setType : 1 },
+                },
+                flag: false,
+                id: _uid,
+            });
+        },
+        6: () => {
+            setCopyer(true);
+            setCopyerConfig({
+                value: JSON.parse(JSON.stringify(props.nodeConfig)),
+                flag: false,
+                id: _uid,
+            });
+        },
+        7: () => {
+            setApprover(true);
+            setApproverConfig({
+                value: {
+                    ...JSON.parse(JSON.stringify(props.nodeConfig)),
+                    index: index,
+                },
+                flag: false,
+                id: _uid,
+            });
+        },
+        default: () => {
+            setCondition(true);
+            setConditionsConfig({
+                value: {
+                    ...JSON.parse(JSON.stringify(props.nodeConfig)),
+                    index: index,
+                },
+                flag: false,
+                id: _uid,
+            });
+        }
+    };
+
+    const action = actions[nodeType] || actions.default;
+    action();
 };
 const arrTransfer = (index, type = 1) => {
     //向左-1,向右1
