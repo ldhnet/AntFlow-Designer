@@ -46,7 +46,9 @@
 | 设计器   | [Antflow-Designer](https://gitee.com/ldhnet/Antflow-Designer) | [Antflow-Designer](https://github.com/ldhnet/Antflow-Designer) | [Antflow-Designer](https://gitcode.com/ldhnet/FlowDesigner/overview) |
 | 成品项目 | [Antflow](https://gitee.com/tylerzhou/Antflow)                | [Antflow](https://github.com/mrtylerzhou/Antflow)              | [Antflow](https://gitcode.com/zypqqgc/Antflow/overview)              |
 
-#### 项目运行 node14.20.1 以上版本
+#### 项目运行 node20.19.4 以上版本
+
+> 温馨提示：由于项目升级了 vite7.1.1 版本，所以需要 node20.19.4 以上版本。如果需要使用低版本 nodejs 可以降级 vite 与 vitejs/plugin-vue 这两个依赖版本即可
 
 > 1.下载项目 git clone https://gitee.com/ldhnet/Antflow-Designer.git
 
