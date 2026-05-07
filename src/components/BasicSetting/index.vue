@@ -66,7 +66,7 @@ let props = defineProps({
   if (import.meta.env.MODE !== 'development') { 
     const metaUrlMatch = metaUrl.match(/^(.*?)\/public\//) // 匹配public前面的路径
     if (metaUrlMatch && metaUrlMatch[0]) {
-          path = metaUrl.replace(metaUrlMatch[0], '/ant-flow/dist/')
+          path = metaUrl.replace(metaUrlMatch[0], '/design/')
     } 
   }else{
     path = metaUrl
