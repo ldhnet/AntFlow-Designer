@@ -33,9 +33,9 @@
 
 ## 演示图
 
-![](./public/images/10.png)
-![](./public/images/11.png)
-![](./public/images/12.png)
+![](https://env-00jy6aujr8eq.normal.cloudstatic.cn/antflow/design/10.png)
+![](https://env-00jy6aujr8eq.normal.cloudstatic.cn/antflow/design/11.png)
+![](https://env-00jy6aujr8eq.normal.cloudstatic.cn/antflow/design/12.png)
 
 ---
 
@@ -65,12 +65,12 @@
 - 有捐赠的小伙伴（金额不限）可以联系作者领取一份 **独家提升开发技能的文档**
 - 加 QQ574427343 或者邮件到 574427343@qq.com邮箱 _注明 领取开发技能提升文档_
 - 文档宗旨在于提升初级、中级、高级等一线开发人员的编码意识，讲述**什么是好代码**，好代码的标准，**如何编写高质量代码**等
-  <table>
-      <tr>
-          <td><img src="https://gitee.com/ldhnet/Antflow-Designer/raw/master/public/images/wxpay.jpg"/></td>
-          <td><img src="https://gitee.com/ldhnet/Antflow-Designer/raw/master/public/images/alipay.jpg"/></td>
-      </tr>  
-  </table>
+<table>
+    <tr>
+        <td><img src="https://env-00jy6aujr8eq.normal.cloudstatic.cn/antflow/wxpay.jpg"/></td>
+        <td><img src="https://env-00jy6aujr8eq.normal.cloudstatic.cn/antflow/alipay.jpg"/></td>
+    </tr>  
+</table>
 
 ## 好书推荐
 
