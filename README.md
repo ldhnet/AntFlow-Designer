@@ -1,5 +1,5 @@
 <p align="center" style="margin-bottom: 0 !important">
-	<img alt="logo" src="https://gitee.com/ldhnet/ant-flow/raw/master/public/images/logo.png"   width = 15%;>
+	<img alt="logo" src="https://env-00jy6aujr8eq.normal.cloudstatic.cn/antflow/images/logo.png"  width = 20%;>
 </p>
 
 ## 基于 Vue3 + ElementPlus 的独立流程设计器
