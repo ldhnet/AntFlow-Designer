@@ -243,6 +243,9 @@ const addConditionGroup = () => {
 };
 // 验证节点属性
 const validNodeProperty = () => {
+  if (state.isDefault == 1) {
+    return true;
+  }
   return state.groupConditions.every((group) => {
     const conditionList = group.conditionList.filter(item => {
       const hasZdy1 = item.zdy1 != null && item.zdy1 !== '';
