@@ -1,0 +1,45 @@
+{
+  "isDefault": 0,
+  "groupRelation": false,
+  "groupConditions": [
+    {
+      "groupId": "groupid1",
+      "condRelation": false,
+      "sort": 1,
+      "conditionList": [
+        {
+          "key": "key001",
+          "label": "支出费用",
+          "type": "number",
+          "columnDbname": "outTotalMoney",
+          "columnType": "Double",
+          "fixedDownBoxValue": "",
+          "optType": "=",
+          "opt1": "<",
+          "opt2": "<",
+          "zdy1": 200,
+          "zdy2": ""
+        }
+      ]
+    },
+    {
+      "groupId": "groupid2",
+      "condRelation": false,
+      "conditionList": [
+        {
+          "key": "key002",
+          "label": "支出费用",
+          "type": "number",
+          "columnDbname": "outTotalMoney",
+          "columnType": "Double",
+          "fixedDownBoxValue": "",
+          "optType": "=",
+          "opt1": "<",
+          "opt2": "<",
+          "zdy1": 200,
+          "zdy2": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+/***
+ * Drawer 组件全局样式覆盖
+ */
+.el-drawer .el-drawer__header {
+  padding: 10px 20px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid #eee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.el-drawer .el-drawer__body {
+  padding: 10px 20px;
+}
+
+.el-drawer .el-drawer__footer {
+  padding: 10px 20px;
+  border-top: 1px solid #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/***
+ * dialog 组件全局样式覆盖
+ */
+.el-dialog {
+  padding: 0 !important;
+}
+.el-dialog .el-dialog__header {
+  height: 48px;
+  line-height: 48px;
+  padding-left: 18px;
+  background-color: #1890ff;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.el-dialog .el-dialog__header .el-dialog__title {
+  color: #fff;
+}
+.el-dialog .el-dialog__header .el-dialog__headerbtn .el-dialog__close {
+  color: #fff;
+}
+
+.el-dialog .el-dialog__body {
+  padding: 18px;
+}
+.el-dialog .el-dialog__footer {
+  padding: 10px 18px;
+  border-top: 1px solid #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
