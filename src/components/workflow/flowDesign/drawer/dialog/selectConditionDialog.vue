@@ -81,7 +81,7 @@ const loadLFFormCondition = computed(() => {
         zdy2: "",
         opt2: "<",
         columnDbName: item.id,
-        columnType: matchDatabasetype[item.type] || "String",
+        columnType: matchDatabasetype.get(item.type) || "String",
         fixedDownBoxValue: JSON.stringify(optionGroup)
       };
 

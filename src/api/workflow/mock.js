@@ -149,8 +149,8 @@ export function getUserPageList(pageDto, qVO) {
  */
 export function setWorkFlowData(data) {
   const headers = {
-    Userid: 1,
-    Username: "%E5%BC%A0%E4%B8%89",
+    UserId: 1,
+    UserName: encodeURIComponent("张三"), //"%E5%BC%A0%E4%B8%89",
   };
   return http.post(
     `https://localhost:44326/workflow/definitions/save`,
