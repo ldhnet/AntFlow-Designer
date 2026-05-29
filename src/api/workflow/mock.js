@@ -1,5 +1,5 @@
 /*
- * @Date:  2024-05-25 14:06:59
+ * @Date:  2026-05-25 14:06:59
  * @LastEditors: LDH 574427343@qq.com
  * @LastEditTime: 2024-06-29 15:52:57
  * @FilePath: src/api/workflow/mock.js
@@ -99,7 +99,7 @@ export function getSignatureData() {
 export function getRoleList() {
   let headers = {
     Userid: "1",
-    Username: "%E5%BC%A0%E4%B8%89",
+    Username: encodeURIComponent("张三"),
   };
   //return http.get(`${workflowUrl}/user/getRoleInfo`, { headers });
   return http.get(`${baseUrl}mock/roles.json`);
@@ -121,7 +121,7 @@ export function getWorkFlowData(data) {
 export function getUsers(data) {
   let headers = {
     Userid: "1",
-    Username: "%E5%BC%A0%E4%B8%89",
+    Username: encodeURIComponent("张三"),
   };
   return http.get(`${workflowUrl}/user/getUser`, { headers });
 }
@@ -133,7 +133,7 @@ export function getUsers(data) {
 export function getUserPageList(pageDto, qVO) {
   let headers = {
     Userid: "1",
-    Username: "%E5%BC%A0%E4%B8%89",
+    Username: encodeURIComponent("张三"),
   };
   let data = {
     pageDto: pageDto,

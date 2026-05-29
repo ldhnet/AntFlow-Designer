@@ -3,7 +3,7 @@
   "data": {
     "flowCode": "LEAVE_WMA",
     "groupId": "root-group",
-    "key": "LEAVE_WMA001",
+    "key": "LEAVE_WMAD3FZGHE3A",
     "name": "请假申请流程",
     "version": "v1.0.0",
     "frmType": 1,
@@ -11,24 +11,25 @@
     "distinctType": "1",
     "flowIcon": "star",
     "remark": "",
-    "frmValue": "{\"widgetList\":[{\"key\":33753,\"type\":\"input\",\"icon\":\"text-field\",\"formItemFlag\":true,\"options\":{\"name\":\"input11404\",\"label\":\"姓名\",\"labelAlign\":\"\",\"type\":\"text\",\"defaultValue\":\"\",\"placeholder\":\"\",\"columnWidth\":\"200px\",\"size\":\"\",\"labelWidth\":null,\"labelHidden\":false,\"readonly\":false,\"disabled\":false,\"hidden\":false,\"clearable\":true,\"showPassword\":false,\"required\":false,\"requiredHint\":\"\",\"validation\":\"\",\"validationHint\":\"\",\"customClass\":\"\",\"labelIconClass\":null,\"labelIconPosition\":\"rear\",\"labelTooltip\":null,\"minLength\":null,\"maxLength\":null,\"showWordLimit\":false,\"prefixIcon\":\"\",\"suffixIcon\":\"\",\"appendButton\":false,\"appendButtonDisabled\":false,\"buttonIcon\":\"custom-search\",\"onCreated\":\"\",\"onMounted\":\"\",\"onInput\":\"\",\"onChange\":\"\",\"onFocus\":\"\",\"onBlur\":\"\",\"onValidate\":\"\",\"onAppendButtonClick\":\"\"},\"id\":\"input11404\"},{\"key\":33838,\"type\":\"number\",\"icon\":\"number-field\",\"formItemFlag\":true,\"options\":{\"name\":\"number65915\",\"label\":\"年龄\",\"labelAlign\":\"\",\"defaultValue\":0,\"placeholder\":\"\",\"columnWidth\":\"200px\",\"size\":\"\",\"labelWidth\":null,\"labelHidden\":false,\"disabled\":false,\"hidden\":false,\"required\":false,\"requiredHint\":\"\",\"validation\":\"\",\"validationHint\":\"\",\"customClass\":\"\",\"labelIconClass\":null,\"labelIconPosition\":\"rear\",\"labelTooltip\":null,\"min\":-100000000000,\"max\":100000000000,\"precision\":0,\"step\":1,\"controlsPosition\":\"right\",\"onCreated\":\"\",\"onMounted\":\"\",\"onChange\":\"\",\"onFocus\":\"\",\"onBlur\":\"\",\"onValidate\":\"\"},\"id\":\"number65915\"}],\"formConfig\":{\"modelName\":\"formData\",\"refName\":\"vForm\",\"rulesName\":\"rules\",\"labelWidth\":80,\"labelPosition\":\"left\",\"size\":\"\",\"labelAlign\":\"label-left-align\",\"cssCode\":\"\",\"customClass\":[],\"functions\":\"\",\"layoutType\":\"PC\",\"jsonVersion\":3,\"onFormCreated\":\"\",\"onFormMounted\":\"\",\"onFormDataChange\":\"\"}}",
     "createBy": "Admin",
+    "frmValue": "{\"widgetList\":[{\"key\":33753,\"type\":\"input\",\"icon\":\"text-field\",\"formItemFlag\":true,\"options\":{\"name\":\"input11404\",\"label\":\"姓名\",\"labelAlign\":\"\",\"type\":\"text\",\"defaultValue\":\"\",\"placeholder\":\"\",\"columnWidth\":\"200px\",\"size\":\"\",\"labelWidth\":null,\"labelHidden\":false,\"readonly\":false,\"disabled\":false,\"hidden\":false,\"clearable\":true,\"showPassword\":false,\"required\":false,\"requiredHint\":\"\",\"validation\":\"\",\"validationHint\":\"\",\"customClass\":\"\",\"labelIconClass\":null,\"labelIconPosition\":\"rear\",\"labelTooltip\":null,\"minLength\":null,\"maxLength\":null,\"showWordLimit\":false,\"prefixIcon\":\"\",\"suffixIcon\":\"\",\"appendButton\":false,\"appendButtonDisabled\":false,\"buttonIcon\":\"custom-search\",\"onCreated\":\"\",\"onMounted\":\"\",\"onInput\":\"\",\"onChange\":\"\",\"onFocus\":\"\",\"onBlur\":\"\",\"onValidate\":\"\",\"onAppendButtonClick\":\"\"},\"id\":\"input11404\"},{\"key\":33838,\"type\":\"number\",\"icon\":\"number-field\",\"formItemFlag\":true,\"options\":{\"name\":\"number65915\",\"label\":\"年龄\",\"labelAlign\":\"\",\"defaultValue\":0,\"placeholder\":\"\",\"columnWidth\":\"200px\",\"size\":\"\",\"labelWidth\":null,\"labelHidden\":false,\"disabled\":false,\"hidden\":false,\"required\":false,\"requiredHint\":\"\",\"validation\":\"\",\"validationHint\":\"\",\"customClass\":\"\",\"labelIconClass\":null,\"labelIconPosition\":\"rear\",\"labelTooltip\":null,\"min\":-100000000000,\"max\":100000000000,\"precision\":0,\"step\":1,\"controlsPosition\":\"right\",\"onCreated\":\"\",\"onMounted\":\"\",\"onChange\":\"\",\"onFocus\":\"\",\"onBlur\":\"\",\"onValidate\":\"\"},\"id\":\"number65915\"}],\"formConfig\":{\"modelName\":\"formData\",\"refName\":\"vForm\",\"rulesName\":\"rules\",\"labelWidth\":80,\"labelPosition\":\"left\",\"size\":\"\",\"labelAlign\":\"label-left-align\",\"cssCode\":\"\",\"customClass\":[],\"functions\":\"\",\"layoutType\":\"PC\",\"jsonVersion\":3,\"onFormCreated\":\"\",\"onFormMounted\":\"\",\"onFormDataChange\":\"\"}}",
     "nodes": [
       {
         "nodeId": "8YL0A81",
         "nodeName": "审核人",
-        "nodeDisplayName": "2人(牛七,菜六)顺序会签",
+        "nodeDisplayName": "2人(刘八,刘九)顺序会签",
         "nodeType": 4,
         "nodeFrom": "GFWW981",
         "nodeTo": [],
         "nodeWeight": 0,
         "error": false,
-        "nodeProperty": "{\"assigneeType\":1,\"signType\":3,\"noHeaderAction\":1,\"directorLevel\":0,\"IsDistinct\":0,\"sort\":0,\"assigneeList\":[{\"type\":1,\"targetId\":\"5\",\"name\":\"牛七\"},{\"type\":1,\"targetId\":\"4\",\"name\":\"菜六\"}],\"fieldPrems\":[{\"fieldId\":\"input11404\",\"fieldName\":\"姓名\",\"perm\":\"R\"},{\"fieldId\":\"number65915\",\"fieldName\":\"年龄\",\"perm\":\"R\"}],\"buttons\":{\"startPage\":[1],\"approvalPage\":[3,4,18,21,19],\"viewPage\":[0]}}"
+        "nodeProperty": "{\"assigneeType\":1,\"signType\":3,\"noHeaderAction\":1,\"directorLevel\":0,\"IsDistinct\":0,\"sort\":0,\"assigneeList\":[{\"type\":1,\"targetId\":\"8\",\"name\":\"刘八\"},{\"type\":1,\"targetId\":\"9\",\"name\":\"刘九\"}],\"fieldPrems\":[{\"fieldId\":\"input11404\",\"fieldName\":\"姓名\",\"perm\":\"R\"},{\"fieldId\":\"number65915\",\"fieldName\":\"年龄\",\"perm\":\"R\"}],\"buttons\":{\"startPage\":[1],\"approvalPage\":[3,4,18,21,19],\"viewPage\":[0]}}",
+        "definitionKey": "LEAVE_WMAD3FZGHE3A"
       },
       {
         "nodeId": "WX70A81",
         "nodeName": "审核人",
-        "nodeDisplayName": "3人(李四,王五,菜六)会签",
+        "nodeDisplayName": "2人(马六,刘七)会签",
         "nodeType": 4,
         "nodeFrom": "ICWW981",
         "nodeTo": [
@@ -36,12 +37,13 @@
         ],
         "nodeWeight": 0,
         "error": false,
-        "nodeProperty": "{\"assigneeType\":1,\"signType\":2,\"noHeaderAction\":1,\"directorLevel\":0,\"IsDistinct\":0,\"sort\":0,\"assigneeList\":[{\"type\":1,\"targetId\":\"2\",\"name\":\"李四\"},{\"type\":1,\"targetId\":\"3\",\"name\":\"王五\"},{\"type\":1,\"targetId\":\"4\",\"name\":\"菜六\"}],\"fieldPrems\":[{\"fieldId\":\"input11404\",\"fieldName\":\"姓名\",\"perm\":\"R\"},{\"fieldId\":\"number65915\",\"fieldName\":\"年龄\",\"perm\":\"R\"}],\"buttons\":{\"startPage\":[1],\"approvalPage\":[3,4,18,21],\"viewPage\":[0]}}"
+        "nodeProperty": "{\"assigneeType\":1,\"signType\":2,\"noHeaderAction\":1,\"directorLevel\":0,\"IsDistinct\":0,\"sort\":0,\"assigneeList\":[{\"type\":1,\"targetId\":\"6\",\"name\":\"马六\"},{\"type\":1,\"targetId\":\"7\",\"name\":\"刘七\"}],\"fieldPrems\":[{\"fieldId\":\"input11404\",\"fieldName\":\"姓名\",\"perm\":\"R\"},{\"fieldId\":\"number65915\",\"fieldName\":\"年龄\",\"perm\":\"R\"}],\"buttons\":{\"startPage\":[1],\"approvalPage\":[3,4,18,21],\"viewPage\":[0]}}",
+        "definitionKey": "LEAVE_WMAD3FZGHE3A"
       },
       {
         "nodeId": "ICWW981",
         "nodeName": "条件1",
-        "nodeDisplayName": "条件组1:(姓名 = 张三 且 年龄 >= 20)",
+        "nodeDisplayName": "条件组1:(年龄 >= 20)",
         "nodeType": 3,
         "nodeFrom": "GFWW981",
         "nodeTo": [
@@ -49,7 +51,8 @@
         ],
         "nodeWeight": 1,
         "error": false,
-        "nodeProperty": "{\"groupRelation\":false,\"isDefault\":0,\"groupConditions\":[{\"groupId\":\"groupid1\",\"condRelation\":true,\"sort\":0,\"conditionList\":[{\"key\":\"input11404\",\"label\":\"姓名\",\"type\":\"input\",\"optType\":\"=\",\"zdy1\":\"张三\",\"opt1\":\"<\",\"zdy2\":\"\",\"opt2\":\"<\",\"columnDbName\":\"input11404\",\"columnType\":\"String\",\"fixedDownBoxValue\":\"[]\"},{\"key\":\"number65915\",\"label\":\"年龄\",\"type\":\"number\",\"optType\":\">=\",\"zdy1\":20,\"opt1\":\"<\",\"zdy2\":\"\",\"opt2\":\"<\",\"columnDbName\":\"number65915\",\"columnType\":\"String\",\"fixedDownBoxValue\":\"[]\"}],\"groupName\":\"条件组1\"}]}"
+        "nodeProperty": "{\"groupRelation\":false,\"isDefault\":0,\"groupConditions\":[{\"groupId\":\"groupid1\",\"condRelation\":true,\"sort\":0,\"conditionList\":[{\"key\":\"number65915\",\"label\":\"年龄\",\"type\":\"number\",\"optType\":\">=\",\"zdy1\":20,\"opt1\":\"<\",\"zdy2\":\"\",\"opt2\":\"<\",\"columnDbName\":\"number65915\",\"columnType\":\"String\",\"fixedDownBoxValue\":\"[]\"}],\"groupName\":\"条件组1\"}]}",
+        "definitionKey": "LEAVE_WMAD3FZGHE3A"
       },
       {
         "nodeId": "Z8WW981",
@@ -62,21 +65,65 @@
         ],
         "nodeWeight": 2,
         "error": false,
-        "nodeProperty": "{\"groupRelation\":false,\"isDefault\":1,\"groupConditions\":[{\"groupId\":\"groupid1\",\"condRelation\":true,\"sort\":0,\"conditionList\":[]}]}"
+        "nodeProperty": "{\"groupRelation\":false,\"isDefault\":1,\"groupConditions\":[{\"groupId\":\"groupid1\",\"condRelation\":true,\"sort\":0,\"conditionList\":[]}]}",
+        "definitionKey": "LEAVE_WMAD3FZGHE3A"
       },
       {
         "nodeId": "GFWW981",
         "nodeName": "网关",
         "nodeDisplayName": "网关",
         "nodeType": 2,
-        "nodeFrom": "Gb2",
+        "nodeFrom": "9EYYU91",
         "nodeTo": [
           "ICWW981",
           "Z8WW981"
         ],
         "nodeWeight": 1,
         "error": false,
-        "nodeProperty": null
+        "nodeProperty": "{}",
+        "definitionKey": "LEAVE_WMAD3FZGHE3A"
+      },
+      {
+        "nodeId": "9EYYU91",
+        "nodeName": "审核人",
+        "nodeDisplayName": "牛五",
+        "nodeType": 4,
+        "nodeFrom": "LUWYU91",
+        "nodeTo": [
+          "GFWW981"
+        ],
+        "nodeWeight": 0,
+        "error": false,
+        "nodeProperty": "{\"assigneeType\":1,\"signType\":1,\"noHeaderAction\":1,\"directorLevel\":0,\"IsDistinct\":0,\"sort\":0,\"assigneeList\":[{\"type\":1,\"targetId\":\"5\",\"name\":\"牛五\"}],\"fieldPrems\":[{\"fieldId\":\"input11404\",\"fieldName\":\"姓名\",\"perm\":\"R\"},{\"fieldId\":\"number65915\",\"fieldName\":\"年龄\",\"perm\":\"R\"}],\"buttons\":{\"startPage\":[1],\"approvalPage\":[3,4],\"viewPage\":[0]}}",
+        "definitionKey": "LEAVE_WMAD3FZGHE3A"
+      },
+      {
+        "nodeId": "LUWYU91",
+        "nodeName": "抄送人",
+        "nodeDisplayName": "菜四",
+        "nodeType": 6,
+        "nodeFrom": "1YUYU91",
+        "nodeTo": [
+          "9EYYU91"
+        ],
+        "nodeWeight": 0,
+        "error": false,
+        "nodeProperty": "{\"assigneeType\":1,\"ccFlag\":0,\"fieldPrems\":[],\"assigneeList\":[{\"type\":1,\"targetId\":\"4\",\"name\":\"菜四\"}],\"buttons\":{\"startPage\":[],\"approvalPage\":[],\"viewPage\":[]}}",
+        "definitionKey": "LEAVE_WMAD3FZGHE3A"
+      },
+      {
+        "nodeId": "1YUYU91",
+        "nodeName": "审核人",
+        "nodeDisplayName": "李二,王三",
+        "nodeType": 4,
+        "nodeFrom": "Gb2",
+        "nodeTo": [
+          "LUWYU91"
+        ],
+        "nodeWeight": 0,
+        "error": false,
+        "nodeProperty": "{\"assigneeType\":1,\"signType\":1,\"noHeaderAction\":1,\"directorLevel\":0,\"IsDistinct\":0,\"sort\":0,\"assigneeList\":[{\"type\":1,\"targetId\":\"2\",\"name\":\"李二\"},{\"type\":1,\"targetId\":\"3\",\"name\":\"王三\"}],\"fieldPrems\":[{\"fieldId\":\"input11404\",\"fieldName\":\"姓名\",\"perm\":\"R\"},{\"fieldId\":\"number65915\",\"fieldName\":\"年龄\",\"perm\":\"R\"}],\"buttons\":{\"startPage\":[1],\"approvalPage\":[3,4],\"viewPage\":[0]}}",
+        "definitionKey": "LEAVE_WMAD3FZGHE3A"
       },
       {
         "nodeId": "Gb2",
@@ -85,11 +132,12 @@
         "nodeType": 1,
         "nodeFrom": "",
         "nodeTo": [
-          "GFWW981"
+          "1YUYU91"
         ],
         "nodeWeight": 0,
         "nodeProperty": null,
-        "error": false
+        "error": false,
+        "definitionKey": "LEAVE_WMAD3FZGHE3A"
       }
     ]
   },
