@@ -45,7 +45,7 @@
                     <el-option label="小于" value="<" />
                     <el-option label="小于等于" value="<=" />
                     <el-option label="大于等于" value=">=" />
-                    <el-option label="介于两数之间" value="in" />
+                    <el-option label="介于两数之间" value="between" />
                   </el-select>
                   <el-input-number v-model="item.zdy1" :controls="false" :placeholder="`请输入${item.label}`"
                     style="width: 100%" />
@@ -58,7 +58,7 @@
                     <el-option label="小于" value="<" />
                     <el-option label="小于等于" value="<=" />
                     <el-option label="大于等于" value=">=" />
-                    <el-option label="介于两数之间" value="in" />
+                    <el-option label="介于两数之间" value="between" />
                   </el-select>
                   <el-date-picker v-model="item.zdy1" type="date" value-format="YYYY-MM-DD" placeholder="请选择date"
                     style="flex: 1" />
@@ -77,7 +77,7 @@
                     <el-option label="小于" value="<" />
                     <el-option label="小于等于" value="<=" />
                     <el-option label="大于等于" value=">=" />
-                    <el-option label="介于两数之间" value="in" />
+                    <el-option label="介于两数之间" value="between" />
                   </el-select>
                   <el-time-picker v-model="item.zdy1" value-format="HH:mm:ss" placeholder="请选择time" style="flex: 1" />
                 </div>
