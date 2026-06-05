@@ -20,7 +20,7 @@
 
 				<el-form-item label="审批人去重" prop="distinctType">
 					<el-select v-model="basicForm.distinctType" class="full-width">
-						<el-option label="不启去重" value="0" />
+						<el-option label="不去重" value="0" />
 						<el-option label="前去重" value="1" />
 						<el-option label="后去重" value="2" />
 					</el-select>
