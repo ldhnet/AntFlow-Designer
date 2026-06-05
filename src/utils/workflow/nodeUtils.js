@@ -11,7 +11,7 @@ export class NodeUtils {
     let qutient = new Date() - new Date("2024-05-01");
     qutient += Math.ceil(Math.random() * 1000); // 防止重複
     const chars =
-      "0123456789ABCDEFGHIGKLMNOPQRSTUVWXYZabcdefghigklmnopqrstuvwxyz";
+      "0123456789ABCDEFGHIjKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     const charArr = chars.split("");
     const radix = chars.length;
     const res = [];
