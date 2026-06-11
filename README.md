@@ -6,8 +6,8 @@
 
 - [![star](https://gitee.com/ldhnet/Antflow-Designer/badge/star.svg?theme=dark)](https://gitee.com/ldhnet/Antflow-Designer/stargazers) [![fork](https://gitee.com/ldhnet/Antflow-Designer/badge/fork.svg?theme=dark)](https://gitee.com/ldhnet/Antflow-Designer/members)
 
-- 成品案例 [预览入口]( http://antflow.top/admin/)
-- 集成若依案例 [预览入口]( http://antflow.top/mate/)
+- 成品案例 [预览入口](http://antflow.top/admin/)
+- 集成若依案例 [预览入口](http://antflow.top/mate/)
 - 独立流程设计器 [预览入口](http://antflow.top/design/)
 - 项目文档 [wiki 入口](https://gitee.com/ldhnet/Antflow-Designer/wikis)
 - 流程设计器地址 [Gitee 仓库](https://gitee.com/ldhnet/Antflow-Designer) | [GitHub 仓库](https://github.com/ldhnet/Antflow-Designer) | [GitCode 仓库](https://gitcode.com/ldhnet/Antflow-Designer/overview)
@@ -34,9 +34,8 @@
 
 ## 演示图
 
-![](https://env-00jy6aujr8eq.normal.cloudstatic.cn/antflow/design/10.png)
-![](https://env-00jy6aujr8eq.normal.cloudstatic.cn/antflow/design/11.png)
-![](https://env-00jy6aujr8eq.normal.cloudstatic.cn/antflow/design/12.png)
+![](https://antflow.top/file/preview/4.png)
+![](https://antflow.top/file/preview/5.png)
 
 ---
 
@@ -68,8 +67,8 @@
 - 文档宗旨在于提升初级、中级、高级等一线开发人员的编码意识，讲述**什么是好代码**，好代码的标准，**如何编写高质量代码**等
 <table>
     <tr>
-        <td><img src="https://env-00jy6aujr8eq.normal.cloudstatic.cn/antflow/wxpay.jpg"/></td>
-        <td><img src="https://env-00jy6aujr8eq.normal.cloudstatic.cn/antflow/alipay.jpg"/></td>
+        <td><img src="https://antflow.top/file/pay/wxpay.jpg"/></td>
+        <td><img src="https://antflow.top/file/pay/alipay.jpg"/></td>
     </tr>  
 </table>
 
