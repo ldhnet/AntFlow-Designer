@@ -14,6 +14,7 @@
 - Antflow 项目地址 [Gitee 仓库](https://gitee.com/tylerzhou/Antflow) | [Github 仓库](https://github.com/mrtylerzhou/Antflow) | [GitCode 仓库](https://gitcode.com/zypqqgc/Antflow/overview)
 
 - QQ 技术交流群（972107977） 期待您的加入
+- 联系作者 QQ574427343 或者邮箱 574427343@qq.com
 - 有疑问/建议可以 Issues 留言，我们会认真对待 [issues 地址](https://gitee.com/ldhnet/Antflow-Designer/issues)
 
 ## 项目介绍
